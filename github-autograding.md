@@ -61,6 +61,8 @@ This guide uses code found in the “fatgoose-uwb” organization. You will need
 
 ## Editing and testing the assignment
 
+
+
 To change the due date for sprint-1, edit the sp1.md file under `sprint-meta/dates`, then push to your sprint-meta repository.
 
 To modify the sprint-1 assignment, edit the problem files and test files in sprint-1/src/ and then push to your repository. You (probably) will not need to edit pom.xml or any workflow files to have your tests run automatically. 
@@ -77,11 +79,12 @@ Your students will submit the links to their pull requests in Canvas. The pull r
 
 <img width="60%" alt="image" src="https://github.com/katsucurry-uwb/autograder-docs/blob/41d4ea41b99d1fcb29c7364a566fd11a09aad33c/images/failed-test-instructor.png">
 
-To learn more about which tests failed, click **Details**.
+* To learn more about which tests failed, click **Details**.
 
-To view the student's code, click **Files changed.** To annotate the code, hover over a line and click the blue plus sign.
+* To view the student's code, click **Files changed.** To annotate the code, hover over a line and click the blue plus sign.
 
-When you are finished, assign the submission a grade in Canvas.
+* When you are finished, assign the submission a grade in Canvas.
 
 ## Acknowledgements
+
 Thanks to Dr. Peng Du for setting up this auto-testing system. Thanks also to Dr. Johnny Lin and Dr. Yusuf Pisan for their work in coordinating this process.
