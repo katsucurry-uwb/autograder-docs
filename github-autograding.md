@@ -1,6 +1,6 @@
 # Autograding with GitHub
 
-This document contains step-by-step instructions on creating a system for quick feedback on assignments for CSSSKL 143. Any questions related to implementing, altering, or managing this system, or any feedback on how to improve the system or this guide, should be sent to Cameron Kline-Sharpe (cklinesh@uw.edu) and Dr. Johnny Lin (jwblin@uw.edu).
+This document contains step-by-step instructions on creating a system for quick feedback on assignments for CSSSKL 143.
 
 An FAQ is also available for this guide.
 
