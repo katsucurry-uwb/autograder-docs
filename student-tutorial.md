@@ -9,13 +9,16 @@ We also recommend walking through the tutorial in class and/or providing a video
 <img width="60%" alt="image" src="">
 
 
-1. Got to the GitHub repository for your coding assignment.
+1. Go to the GitHub repository for your coding assignment.
 2. **Fork the repository.** Click **Fork**, then click **Create fork**. This creates a personal copy of the code for you.
 
 <img width="60%" alt="image" src="https://github.com/katsucurry-uwb/autograder-docs/blob/4ec68de4220334ad7d3c3f1ff8df96303cd07283/images/fork.png">
 
 
 3. **Enable GitHub workflows.** In your repository, click **Actions**, then click the green button. This will enable automatic testing for your submissions.
+
+<img width="60%" alt="image" src="">
+
 4. **Clone the repository to your machine.** In IntelliJ, select **File > New > Project from Version Control...** from the menu bar. You may be asked to log into GitHub.
 5. **Create a new branch.** In Git, branches are used to contain work on some repository until that work is complete and ready to be merged with the main “trunk” of the repository. In IntelliJ, select **Git > New Branch...** from the menu bar. Name your branch "work", then click **Create**.
 #### 6. Complete the assignment.
@@ -36,16 +39,19 @@ You will commit (“collect all the changes together”) and push (“send those
 
 Once you have pushed your last changes, you will need to create a new pull request from your “work” branch to your main branch. Do NOT create a pull request to the instructors repository. Once you have pushed changes to the online repository, you should see a notification like the one below (indicated with the purple arrow). You may need to navigate to the “main” branch to see this popup. If the notice does not appear, you can manually create a pull request; see more information about that process here, but check the “main” branch first. You can do this by clicking the branch selection button (indicated in red below) and selecting the main branch. Once you click the “compare and pull request button”, you will need to change some settings in your pull request, so don’t just press “create pull request” right away. Do NOT make any changes or a PR after the deadline, as the “late assignment” check will fail.
 
-img
+<img width="60%" alt="image" src="https://github.com/katsucurry-uwb/autograder-docs/blob/5074cedf47c5aaa58241b257cc5ef12b6b621d40/images/compare-and-pull-request.png">
+
 
 
 Once you have pressed the “compare and pull request button”, you will be brought to the screen below. Before you create a pull request, you will need to change the destination of the request. Do this by pressing the button indicated below and selecting your fork of the repository’s main branch (base: main).
 
-img
+<img width="60%" alt="image" src="https://github.com/katsucurry-uwb/autograder-docs/blob/5074cedf47c5aaa58241b257cc5ef12b6b621d40/images/change-destination.png">
+
 
 At this point, you should add a title (and comment, if needed) to your pull request.
 
-img
+<img width="60%" alt="image" src="https://github.com/katsucurry-uwb/autograder-docs/blob/5074cedf47c5aaa58241b257cc5ef12b6b621d40/images/pull-request-comment.png">
+
 
 Once all that is done, you can create the pull request. Once the pull request is created, GitHub will begin to test your submission automatically. This process may take a moment, so don’t immediately step away from your assignment once you have created the request.
 
@@ -53,17 +59,20 @@ Once all that is done, you can create the pull request. Once the pull request is
 
 Once the automatic checks have been completed, GitHub will let you know if all the tests have passed or not. Passing tests will look like this:
 
-img
+<img width="60%" alt="image" src="https://github.com/katsucurry-uwb/autograder-docs/blob/5074cedf47c5aaa58241b257cc5ef12b6b621d40/images/test-results-student.png">
+
 
 If you see the above, you are probably good to go, but make sure to double check that you have finished with your assignment.
 
 Failing Checks will look like this:
 
-img
+<img width="60%" alt="image" src="https://github.com/katsucurry-uwb/autograder-docs/blob/5074cedf47c5aaa58241b257cc5ef12b6b621d40/images/failed-test-student.png">
+
 
 To see the details of which checks failed, I can press the “details” link, as shown below:
 
-img
+<img width="60%" alt="image" src="https://github.com/katsucurry-uwb/autograder-docs/blob/5074cedf47c5aaa58241b257cc5ef12b6b621d40/images/view-details-student.png">
+
 
 You can see that I failed the unit tests. I can see which tests I failed by expanding that section and scrolling to the failed tests. This may take a bit of scrolling, but don’t give up!
 
