@@ -37,11 +37,11 @@ Next, you should commit (“collect all the changes together”) and push (“se
 
 #### 9. Create a pull request.
 
-Once you have pushed your last changes, you will need to create a new pull request from your “work” branch to your main branch. Do NOT create a pull request to the instructors repository. Once you have pushed changes to the online repository, you should see a notification like the one below (indicated with the purple arrow). You may need to navigate to the “main” branch to see this popup. If the notice does not appear, you can manually create a pull request; see more information about that process here, but check the “main” branch first. You can do this by clicking the branch selection button (indicated in red below) and selecting the main branch. Once you click the “compare and pull request button”, you will need to change some settings in your pull request, so don’t just press “create pull request” right away. Do NOT make any changes or a PR after the deadline, as the “late assignment” check will fail.
+Once you have finished the assignment, you will need to create a new pull request from your “work” branch to your main branch.
+Go to your GitHub repository, then click **Pull requests > New pull request**.
+Do NOT make any changes or a pull request after the deadline, as the “late assignment” check will fail.
 
-<img width="60%" alt="image" src="https://github.com/katsucurry-uwb/autograder-docs/blob/5074cedf47c5aaa58241b257cc5ef12b6b621d40/images/compare-and-pull-request.png">
-
-Once you have pressed the “compare and pull request button”, you will be brought to the screen below. Before you create a pull request, you will need to change the destination of the request. Do this by pressing the button indicated below and selecting your fork of the repository’s main branch (base: main).
+Before you create a pull request, you will need to change the destination of the request. Do this by pressing the button indicated below and selecting your fork of the repository’s main branch (base: main). Do NOT create a pull request to the instructors repository.
 
 <img width="60%" alt="image" src="https://github.com/katsucurry-uwb/autograder-docs/blob/5074cedf47c5aaa58241b257cc5ef12b6b621d40/images/change-destination.png">
 
