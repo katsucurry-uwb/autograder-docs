@@ -7,8 +7,8 @@ An FAQ is also available for this guide.
 ## 0. System Flow
 The general workflow for this system is as follows:
 * Before assigning the homework, set up the GitHub repositories for your students.
-    * Create repositories with the supplied workflows (step 1 below)
-    * Edit the supplied tests and skeleton code files to suit your assignment (step 2 below)
+  * Create repositories with the supplied workflows (step 1 below)
+  * Edit the supplied tests and skeleton code files to suit your assignment (step 2 below)
 * Students will submit their assignments (step 3 below)
 * You and/or any graders will look over the test results and the code to see which tests failed and why. You can also make comments directly in the code.
 
@@ -16,7 +16,7 @@ The goal of this system is to make grading work both easier and faster. If you h
 
 ## 1. Tutorial for Instructors
 
-This tutorial will show you how to set up autograded assignments using two example repositories found in the [fatgoose-uwb](https://github.com/fatgoose-uwb) organization.
+This tutorial will show you how to set up autograded assignments using two example repositories found in the [fatgoose-uwb](https://github.com/fatgoose-uwb) organization. 
 
 This guide uses code found in the “fatgoose-uwb” organization. You will need to clone the “sprint-base-1” and “sprint-meta” repositories. You will eventually want to create your own set of repositories, so it may be worthwhile to create a GitHub organization for your grading to make organization of your GitHub easier. A tutorial for starting a new organization can be found here.
 
@@ -63,7 +63,7 @@ This guide uses code found in the “fatgoose-uwb” organization. You will need
 
 To change the due date for sprint-1, edit the sp1.md file under `sprint-meta/dates`, then push to your sprint-meta repository.
 
-To modify the sprint-1 assignment, edit the problem files and test files in sprint-1/src/ and then push to your repository. You (probably) will not need to edit pom.xml or any workflow files to have your tests run automatically.
+To modify the sprint-1 assignment, edit the problem files and test files in sprint-1/src/ and then push to your repository. You (probably) will not need to edit pom.xml or any workflow files to have your tests run automatically. 
 
 To test your system, create a solution for your assignment that will pass all of your tests. Then follow the tutorial for students ("student-tutorial.md") in this folder to submit your work. Also, try making code that fails a test (add a new file, or fail a unit test, etc.). See what happens then. If you have followed the directions above and your tests are failing, check out the FAQ.
 
