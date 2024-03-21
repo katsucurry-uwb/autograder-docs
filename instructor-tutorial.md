@@ -4,7 +4,7 @@ This document contains step-by-step instructions on creating a system for quick 
 
 An FAQ is also available for this guide.
 
-## 0. System Flow
+## System Flow
 The general workflow for this system is as follows:
 * Before assigning the homework, set up the GitHub repositories for your students.
   * Create repositories with the supplied workflows (step 1 below)
@@ -14,13 +14,13 @@ The general workflow for this system is as follows:
 
 The goal of this system is to make grading work both easier and faster. If you have any suggestions on how to improve the system, let us know!
 
-## 1. Tutorial for Instructors
+## Tutorial for Instructors
 
 This tutorial will show you how to set up autograded assignments using two example repositories found in the [fatgoose-uwb](https://github.com/fatgoose-uwb) organization. 
 
 This guide uses code found in the “fatgoose-uwb” organization. You will need to clone the “sprint-base-1” and “sprint-meta” repositories. You will eventually want to create your own set of repositories, so it may be worthwhile to create a GitHub organization for your grading to make organization of your GitHub easier. A tutorial for starting a new organization can be found here.
 
-## Cloning the repositories
+### Cloning the repositories
 
 1. Create a new public repository in your GitHub organization called "sprint-meta".
 
@@ -59,21 +59,19 @@ This guide uses code found in the “fatgoose-uwb” organization. You will need
 8. Edit the backref.cfg configuration file under `sprint-1/.github/workflows`. Replace `fatgoose-uwb` with the name of your GitHub organization, and replace `sprint-base-meta` and `sprint-base-1` with the names of your repositories.
 9. You may also wish to set a protection on your main branch so that students cannot alter it. This can be done by [setting access permissions](https://docs.github.com/en/organizations/managing-access-to-your-organizations-project-boards/project-board-permissions-for-an-organization) to your organization, or by [adding protections to your main branch](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches).
 
-## Editing and testing the assignment
+### Editing and testing the assignment
 
+* To change the due date for sprint-1, edit the sp1.md file under `sprint-meta/dates`, then push to your sprint-meta repository.
 
+* To modify the sprint-1 assignment, edit the problem files and test files in sprint-1/src/ and then push to your repository. You (probably) will not need to edit pom.xml or any workflow files to have your tests run automatically. 
 
-To change the due date for sprint-1, edit the sp1.md file under `sprint-meta/dates`, then push to your sprint-meta repository.
+* To test your system, create a solution for your assignment that will pass all of your tests. Then follow the tutorial for students ("student-tutorial.md") in this folder to submit your work. Also, try making code that fails a test (add a new file, or fail a unit test, etc.). If you have followed the directions above and your tests are failing, check out the FAQ.
 
-To modify the sprint-1 assignment, edit the problem files and test files in sprint-1/src/ and then push to your repository. You (probably) will not need to edit pom.xml or any workflow files to have your tests run automatically. 
-
-To test your system, create a solution for your assignment that will pass all of your tests. Then follow the tutorial for students ("student-tutorial.md") in this folder to submit your work. Also, try making code that fails a test (add a new file, or fail a unit test, etc.). See what happens then. If you have followed the directions above and your tests are failing, check out the FAQ.
-
-Along with the assignment, a step-by-step guide for students on how to submit their answers to the auto-testing system, created by Dr. Peng Du, has been provided; see the student-instructions.md file (in the Google Drive folder). You will probably need to tailor the tutorial to fit with your teaching style; to help with that, Sections 2.1 - 2.3 are an example step-by-step tutorial with screenshots. Feel free to use (or not use) any of the material below in your version of the student guide.
+Along with the sprint-base-1 assignment, a step-by-step guide for students on how to submit their answers to the auto-testing system, created by Dr. Peng Du, has been provided; see the student-instructions.md file (in the Google Drive folder). You will probably need to tailor the tutorial to fit with your teaching style; to help with that, Sections 2.1 - 2.3 are an example step-by-step tutorial with screenshots. Feel free to use (or not use) any of the material below in your version of the student guide.
 
 We also recommend walking through the tutorial in class and/or providing a video tutorial.
 
-## Grading the submissions
+### Grading the submissions
 
 Your students will submit the links to their pull requests in Canvas. The pull request page on GitHub will show whether the checks have passed or failed. If checks failed, the page will look something like this:
 
