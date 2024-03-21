@@ -83,7 +83,7 @@ Your students will submit the links to their pull requests in Canvas. The pull r
 
 * To view the student's code, click **Files changed.** To annotate the code, hover over a line and click the blue plus sign.
 
-* When you are finished, assign the submission a grade in Canvas.
+* When you are finished, assign a grade to the submission in Canvas.
 
 ## Acknowledgements
 
