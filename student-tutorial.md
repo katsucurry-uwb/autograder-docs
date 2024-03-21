@@ -6,9 +6,6 @@ We also recommend walking through the tutorial in class and/or providing a video
 
 *Info for students below*
 
-<img width="60%" alt="image" src="">
-
-
 1. Go to the GitHub repository for your coding assignment.
 2. **Fork the repository.** Click **Fork**, then click **Create fork**. This creates a personal copy of the code for you.
 
