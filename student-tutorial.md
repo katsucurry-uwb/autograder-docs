@@ -14,7 +14,7 @@ We also recommend walking through the tutorial in class and/or providing a video
 
 3. **Enable GitHub workflows.** In your repository, click **Actions**, then click the green button. This will enable automatic testing for your submissions.
 
-<img width="60%" alt="image" src="">
+<img width="60%" alt="image" src="https://github.com/katsucurry-uwb/autograder-docs/blob/48e3c2342cfa5603fe4f6efc01ea4cd7ef9acf7f/images/actions.png">
 
 4. **Clone the repository to your machine.** In IntelliJ, select **File > New > Project from Version Control...** from the menu bar. You may be asked to log into GitHub.
 5. **Create a new branch.** In Git, branches are used to contain work on some repository until that work is complete and ready to be merged with the main “trunk” of the repository. In IntelliJ, select **Git > New Branch...** from the menu bar. Name your branch "work", then click **Create**.
