@@ -12,7 +12,7 @@ We also recommend walking through the tutorial in class and/or providing a video
 1. Got to the GitHub repository for your coding assignment.
 2. **Fork the repository.** Click **Fork**, then click **Create fork**. This creates a personal copy of the code for you.
 
-<img width="60%" alt="image" src="https://github.com/katsucurry-uwb/autograder-docs/blob/f7c95fcfb94d1949c99059bf7b82c355918fea30/images/fork.png">
+<img width="60%" alt="image" src="https://github.com/katsucurry-uwb/autograder-docs/blob/4ec68de4220334ad7d3c3f1ff8df96303cd07283/images/fork.png">
 
 
 3. **Enable GitHub workflows.** In your repository, click **Actions**, then click the green button. This will enable automatic testing for your submissions.
