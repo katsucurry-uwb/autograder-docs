@@ -1,10 +1,4 @@
-## 3. Setting up a tutorial for students
-
-Along with the assignment, a step-by-step guide for students on how to submit their answers to the auto-testing system, created by Dr. Peng Du, has been provided; see the student-instructions.md file (in the Google Drive folder). You will probably need to tailor the tutorial to fit with your teaching style; to help with that, Sections 2.1 - 2.3 are an example step-by-step tutorial with screenshots. Feel free to use (or not use) any of the material below in your version of the student guide.
-
-We also recommend walking through the tutorial in class and/or providing a video tutorial.
-
-*Info for students below*
+## 
 
 1. Go to the GitHub repository for your coding assignment.
 2. **Fork the repository.** Click **Fork**, then click **Create fork**. This creates a personal copy of the code for you.

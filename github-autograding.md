@@ -67,11 +67,15 @@ To modify the sprint-1 assignment, edit the problem files and test files in spri
 
 To test your system, create a solution for your assignment that will pass all of your tests. Then follow the tutorial for students ("student-tutorial.md") in this folder to submit your work. Also, try making code that fails a test (add a new file, or fail a unit test, etc.). See what happens then. If you have followed the directions above and your tests are failing, check out the FAQ.
 
+Along with the assignment, a step-by-step guide for students on how to submit their answers to the auto-testing system, created by Dr. Peng Du, has been provided; see the student-instructions.md file (in the Google Drive folder). You will probably need to tailor the tutorial to fit with your teaching style; to help with that, Sections 2.1 - 2.3 are an example step-by-step tutorial with screenshots. Feel free to use (or not use) any of the material below in your version of the student guide.
+
+We also recommend walking through the tutorial in class and/or providing a video tutorial.
+
 ## Grading the submissions
 
 Your students will submit the links to their pull requests in Canvas. The pull request page on GitHub will show whether the checks have passed or failed. If checks failed, the page will look something like this:
 
-img
+<img width="60%" alt="image" src="https://github.com/katsucurry-uwb/autograder-docs/blob/41d4ea41b99d1fcb29c7364a566fd11a09aad33c/images/failed-test-instructor.png">
 
 To learn more about which tests failed, click **Details**.
 
